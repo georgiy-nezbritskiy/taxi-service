@@ -1,4 +1,5 @@
-![](https://prnt.sc/7idzdIvpkMcM)
+ ![taxi service](https://prnt.sc/7idzdIvpkMcM "Title")
+ 
 # :rotating_light: 	:rotating_light: 	:rotating_light:
 # :raised_hand_with_fingers_splayed: **About**
 
@@ -6,8 +7,8 @@ This application is a simplified version of the taxi service. It allows driver r
 
 # :shinto_shrine: **Features**
 
-- registration a new driver
-- create, update, delete cars, drivers, manufacturers
+- register a new driver
+- create, update, delete cars/drivers/manufacturers
 - display all information about cars, drivers, manufacturers, cars of current drivers
 - log in/ log out
 
@@ -15,12 +16,12 @@ This application is a simplified version of the taxi service. It allows driver r
 
 ## The project has 3-Tier Architecture
 
-1 DAO
- - all database work takes place here (CRUD methods)
-2 SERVICE
- - all business login takes place here
-3 CONTROLLER
- - all communication between the client and the server takes place here
+1. DAO
+     - all communication between the client and the server takes place here
+2. SERVICE
+     - all database work takes place here (CRUD methods)
+3. CONTROLLER
+     - all business login takes place here
 
 # :tornado: **Technologies:**
 
@@ -35,7 +36,7 @@ This application is a simplified version of the taxi service. It allows driver r
 
 - Fork this repository
 - Clone the repository to your PC
-- Create all tables in your database from the file init_db.sql
+- Create all tables in your database using the file init_db.sql
 - Edit ConnectionUtil.class - set the necessary parameters:
 
 ```
